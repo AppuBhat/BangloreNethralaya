@@ -1,0 +1,77 @@
+#header{
+    position: relative;
+    z-index: 100;
+}
+
+#header .header-body{
+    background-color: grey;
+    color: white;
+    border-top: 3px solid #ededed !important;
+    border-bottom: 1px solid transparent !important;
+    padding: 8px 0px;
+    transition: min-height 0.3s ease;
+    width: 100%;
+    z-index: 1001;
+    min-height: 125px;
+}
+
+#header .header-container{
+    position: relative;
+    display: table;
+}
+
+#header .header-row{
+    display: table-row;
+    clear: both;
+}
+
+#header .header-column{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#header .header-logo{
+    float: left;
+    position: relative;
+}
+#header .header-column .header-row{
+    display: block;
+    clear: right;
+}
+#header .header-nav-top{
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+a{
+    color: white !important;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+    color: white;
+    background-color: #000;
+}
+@media(max-width: 767px)
+.hidden-xs{
+        display: none!important;
+}
+body{
+    font-family: sans-serif;
+}
+/*image zoom css*/
+.imgzoom {
+  height: 150px;
+  width: 150px;
+  -webkit-transition: all 2s ease;
+     -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+          transition: all 2s ease;
+}
+    .imgzoom:hover {
+  width: 200px;
+  height: 200px;
+}
+/*heading */
+.headingimg{
+    text-align: center;
+}

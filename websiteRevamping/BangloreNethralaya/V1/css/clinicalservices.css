@@ -1,0 +1,16 @@
+/*image zoom css*/
+.imgzoom {
+  height: 150px;
+  width: 150px;
+  -webkit-transition: all 2s ease;
+     -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+          transition: all 2s ease;
+}
+    .imgzoom:hover {
+  width: 200px;
+  height: 200px;
+}
+.well-col{
+	text-align:center;
+}
